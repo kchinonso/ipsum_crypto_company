@@ -1,0 +1,29 @@
+# Turn Rewrite Engine On
+RewriteEngine on
+
+# Rewrite for contact.php
+RewriteRule ^contact$  contact.php
+RewriteRule ^home$   index.php 
+RewriteRule ^project$   project.php 
+RewriteRule ^about$   about.php 
+RewriteRule ^service$   service.php 
+RewriteRule ^register$   register.php 
+RewriteRule ^login$   login.php 
+
+
+ 
+
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^post/([a-zA-Z0-9-/]+)$  blog-details.php?t=$1
+#RewriteRule ^post/([a-zA-Z0-9-/]+)/  blog-details.php?t=$1
+
+
+
+
+
+
+
+
+
+
+
